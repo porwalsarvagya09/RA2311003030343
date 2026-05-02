@@ -3,16 +3,16 @@ import { registerService } from "./services/apiService.js";
 
 const PORT = 5000;
 
-const start = async () => {
+const startServer = async () => {
   try {
-    await registerService(); 
+    await registerService();
 
     app.listen(PORT, () => {
       console.log(`Server running on port ${PORT}`);
     });
   } catch (err) {
-    console.error("Server failed to start:", err.message);
+    console.error("Failed to start server:", err.message);
   }
 };
 
-start();
+startServer();
