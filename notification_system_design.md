@@ -228,12 +228,11 @@ Export schedule as PDF/CSV.
 
 ## 11. Success Metrics
 
-- ✅ Algorithm selects optimal tasks (verified by tests)
-- ✅ Response time < 500ms for 1000 tasks
-- ✅ Zero task duplicate scheduling
-- ✅ 100% API error handling
-- ✅ All decisions logged
-- ✅ Frontend displays clear results
+- Algorithm selects optimal tasks (verified by tests)
+- Response time < 500ms for 1000 tasks
+- Zero task duplicate scheduling
+- 100% API error handling
+- All decisions logged
 
 ---
 
