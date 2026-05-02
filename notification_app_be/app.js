@@ -3,6 +3,7 @@ import testRoutes from "./routes/testRoutes.js";
 import scheduleRoutes from "./routes/scheduleRoutes.js";
 
 const app = express();
+
 app.use(express.json());
 
 app.use("/api", testRoutes);

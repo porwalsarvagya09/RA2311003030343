@@ -1,4 +1,3 @@
-
 export const selectBestTasks = (tasks, maxTime) => {
   const n = tasks.length;
 
@@ -6,7 +5,6 @@ export const selectBestTasks = (tasks, maxTime) => {
     Array(maxTime + 1).fill(0)
   );
 
-  
   for (let i = 1; i <= n; i++) {
     const { duration, impact } = tasks[i - 1];
 
@@ -22,7 +20,6 @@ export const selectBestTasks = (tasks, maxTime) => {
     }
   }
 
- 
   let t = maxTime;
   const selected = [];
 
